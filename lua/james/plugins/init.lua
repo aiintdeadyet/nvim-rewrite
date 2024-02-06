@@ -4,7 +4,6 @@ return {
 	require("james.plugins.treesitter"),
 	require("james.plugins.autoclosebracket"),
 	require("james.plugins.nvim-tree"),
-	require("james.plugins.icons"),
 	require("james.plugins.tabout")
 	-- need to install dap 
 	-- need to install LSP (sugestions)
