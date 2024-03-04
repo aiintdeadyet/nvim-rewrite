@@ -1,5 +1,5 @@
 vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>fv", vim.cmd.Ex, {}) 
+-- vim.keymap.set("n", "<leader>fv", vim.cmd.Ex, {}) -- opens nvim default file explorer
 
 -- telescope
 local builtin = require('telescope.builtin')
@@ -30,8 +30,6 @@ vim.keymap.set('n', "<leader>dr", dap.repl.toggle, {})
 -- dap ui
 vim.keymap.set('n', '<leader>db', ":lua require('dapui').toggle()<CR>")
 
--- nvim-tree (still needs work)
--- vim.keymap.set("n", "<leader>fv", ":NvimTreeToggle<CR>", {}) -- toggle open and close with "<leader>fv" (this will take the place of line 2)
--- make new file with %
--- make new directory with d
--- I don't want to make a delete command for safty 
+-- neo-tree (still needs work)
+vim.keymap.set("n", "<leader>fv", ":Neotree toggle<CR>", {}) -- toggle open and close with "<leader>fv" (this will take the place of line 2)
+
