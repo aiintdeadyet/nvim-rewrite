@@ -1,0 +1,2 @@
+-- require("james.plugins.setups.nvim-tree")
+--require("james.plugins.setups.dap-c")
