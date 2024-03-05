@@ -6,6 +6,7 @@ return{
 			"clangd", 
 			"clang-format",
 			"codelldb",
+			"pyright",
 		}
 	}
 }
