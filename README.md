@@ -1,2 +1,3 @@
-#nvim-rewrite
+# nvim-rewrite
+
 My personal configuration for neovim
