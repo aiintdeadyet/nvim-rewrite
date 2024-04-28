@@ -4,7 +4,11 @@ A restructuring of my nvim configuration. When the restructuring is finished the
 
 ## Installation
 
-Simply clone this repo to ``~/.config/`` then rename the repo to ``nvim``.
+Simply clone this repo to ```~/.config/```.
+```
+cd ~/.config/
+git clone git@github.com:aiintdeadyet/nvim.git
+```
 
 ## Adding new plugins
 
