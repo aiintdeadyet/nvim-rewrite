@@ -1,4 +1,4 @@
-vim.g.mapleader = " "
+-- map leader is set in init.lua to prevent an error
 -- vim.keymap.set("n", "<leader>fv", vim.cmd.Ex, {}) -- opens nvims default file exporer (netRW)
 vim.keymap.set("n", "<leader>fv", ":Neotree toggle<CR>", {}) -- toggle neotree file exporer
 
