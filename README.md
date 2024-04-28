@@ -1,4 +1,4 @@
-# nvim-rewrite
+# nvim
 
 A restructuring of my nvim configuration. When the restructuring is finished the old repo will be deleted and this one will be renamed.
 
