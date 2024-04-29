@@ -28,6 +28,7 @@ github.com/jay-babu/mason-nvim-dap.nvim
 github.com/iamcco/markdown-preview.nvim
 github.com/williamboman/mason.nvim
 github.com/theHamsta/nvim-dap-virtual-text
+github.com/mg979/vim-visual-multi
 ```
 
 
