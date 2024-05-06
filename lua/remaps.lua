@@ -34,3 +34,5 @@ vim.keymap.set('n', '<leader>db', ":lua require('dapui').toggle()<CR>")
 -- nvim-comment
 vim.keymap.set('n', '<leader>cc', ":CommentToggle<CR>", {})
 vim.keymap.set('v', '<leader>cc', ":CommentToggle<CR>", {})
+
+--toggle terminal
