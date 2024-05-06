@@ -1,4 +1,4 @@
-vim.g.mapleader = " "
+-- map leader is set in init.lua to prevent an error
 -- vim.keymap.set("n", "<leader>fv", vim.cmd.Ex, {}) -- opens nvims default file exporer (netRW)
 vim.keymap.set("n", "<leader>fv", ":Neotree toggle<CR>", {}) -- toggle neotree file exporer
 
@@ -30,3 +30,7 @@ vim.keymap.set('n', "<leader>dr", dap.repl.toggle, {})
 
 -- dap ui
 vim.keymap.set('n', '<leader>db', ":lua require('dapui').toggle()<CR>")
+
+-- nvim-comment
+vim.keymap.set('n', '<leader>cc', ":CommentToggle<CR>", {})
+vim.keymap.set('v', '<leader>cc', ":CommentToggle<CR>", {})

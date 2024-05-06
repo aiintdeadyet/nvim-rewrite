@@ -1,10 +1,36 @@
-# nvim-rewrite
+# nvim
 
-A restructuring of my nvim configuration. When the restructuring is finished the old repo will be deleted and this one will be renamed.
+My custom neovim configuration writen in lua.
 
 ## Installation
 
-Simply clone this repo to ``~/.config/`` then rename the repo to ``nvim``.
+Simply clone this repo to ```~/.config/```.
+```
+cd ~/.config/
+git clone git@github.com:aiintdeadyet/nvim.git
+```
+Then run `neovim`.
+
+## Included plugins
+```
+github.com/nvim-telescope/telescope-dap.nvim
+github.com/mfussenegger/nvim-dap-python
+github.com/nvim-telescope/telescope.nvim
+github.com/jiangmiao/auto-pairs
+github.com/abecodes/tabout.nvim
+github.com/rcarriga/nvim-dap-ui
+github.com/nvim-neo-tree/neo-tree.nvim
+github.com/VonHeikemen/lsp-zero.nvim
+github.com/nvim-treesitter/nvim-treesitter
+github.com/projekt0n/github-nvim-theme
+github.com/mfussenegger/nvim-dap
+github.com/jay-babu/mason-nvim-dap.nvim
+github.com/iamcco/markdown-preview.nvim
+github.com/williamboman/mason.nvim
+github.com/theHamsta/nvim-dap-virtual-text
+github.com/mg979/vim-visual-multi
+```
+
 
 ## Adding new plugins
 

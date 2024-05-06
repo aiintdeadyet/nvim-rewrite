@@ -1,3 +1,4 @@
+
 return { -- tabout to tab out of brackets 
 	'abecodes/tabout.nvim',
 	config = function()
