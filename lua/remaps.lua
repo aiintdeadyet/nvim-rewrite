@@ -31,5 +31,7 @@ vim.keymap.set('n', "<leader>dr", dap.repl.toggle, {})
 -- dap ui
 vim.keymap.set('n', '<leader>db', ":lua require('dapui').toggle()<CR>")
 
+-- comment.nvim 
+
 
 --toggle terminal
