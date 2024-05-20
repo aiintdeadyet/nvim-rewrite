@@ -29,9 +29,12 @@ vim.keymap.set('n', '<leader>lp', ":lua require'dap'.set_breakpoint(nil, nil, vi
 vim.keymap.set('n', "<leader>dr", dap.repl.toggle, {})
 
 -- dap ui
-vim.keymap.set('n', '<leader>db', ":lua require('dapui').toggle()<CR>")
+vim.keymap.set('n', '<leader>db', ui.toggle)
+-- vim.keymap.set('n', '<leader>db', ":lua require('dapui').toggle()<CR>")
 
 -- comment.nvim 
-
+-- this stuff is in the autocomment.lua file
 
 --toggle terminal
+vim.keymap.set('n', "<leader>t", ":ToggleTerm<CR>")
+vim.keymap.set('t', "<esc>", "exit<CR>")
