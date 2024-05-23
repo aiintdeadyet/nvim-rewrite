@@ -3,12 +3,8 @@ return { -- this is going to be a big pain to actualy implement
 	version = "*",
 	config = function()
 		require("toggleterm").setup{
-			direction = "float"
-			-- highlights = {
-			-- 	NormalFloat = {
-			-- 		link = "Normal"
-			-- 	},
-			-- }
+			direction = "float",
+			close_on_exit = true,
 		}
 	end
 }
