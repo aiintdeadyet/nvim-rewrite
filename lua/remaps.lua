@@ -1,9 +1,11 @@
 -- map leader is set in init.lua to prevent an error
 
+
 -- file management
 -- vim.keymap.set("n", "<leader>fv", vim.cmd.Ex, {}) -- opens nvims default file exporer (netRW)
 vim.keymap.set("n", "<leader>fv", ":Neotree toggle<CR>", {}) -- toggle neotree file exporer
 -- other neotree comments are in the neotree pluggins file
+
 
 -- telescope
 local builtin = require('telescope.builtin')
@@ -11,6 +13,7 @@ vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
 vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
 vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
+
 
 -- dap (I am smart enough to know there is a better way to call these functions but not smart enough to us it)
 local dap = require("dap")
@@ -33,13 +36,16 @@ vim.keymap.set('n', '<leader>B', ":lua require'dap'.set_breakpoint(vim.fn.input(
 vim.keymap.set('n', '<leader>lp', ":lua require'dap'.set_breakpoint(nil, nil, vim.fn.input('Log point message: '))<CR>") -- this line needs changed to
 vim.keymap.set('n', "<leader>dr", dap.repl.toggle, {})
 
+
 -- dap ui
 vim.keymap.set('n', '<leader>db', ui.toggle)
 -- vim.keymap.set('n', '<leader>db', ":lua require('dapui').toggle()<CR>")
 
+
 -- comment.nvim 
 -- this stuff is in the autocomment.lua file
 
--- toggleterm 
-vim.keymap.set('n', '<leader>t', ":ToggleTerm<CR>", opts)
-vim.keymap.set('t', '<esc>', [[<C-\><C-n>:q<CR>]], opts)
+
+-- toggleterm, remapings have changed to ctrl-t for both and moved to the togglerterm pluggin file
+-- vim.keymap.set('n', '<leader>t', ":ToggleTerm<CR>", opts)
+-- vim.keymap.set('t', '<esc>', "<C-t>", opts)
