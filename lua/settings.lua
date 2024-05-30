@@ -6,8 +6,8 @@ vim.cmd.set("nobackup") -- don't save backup files
 vim.cmd.set("clipboard+=unnamedplus")
 
 -- indentation
-vim.cmd.set("tabstop=3") -- set number of spaces after tab to 4
-vim.cmd.set("autoindent shiftwidth=3") -- hitting tab will put down 2 spaces 
+vim.cmd.set("tabstop=4") -- set number of spaces after tab to 4
+vim.cmd.set("autoindent shiftwidth=4") -- hitting tab will put down 2 spaces 
 vim.cmd.set("smarttab") -- I don't know
 
 -- show at bottom
