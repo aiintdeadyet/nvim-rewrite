@@ -11,7 +11,7 @@ return {
 				["@f"] = "⛏ ", -- mark annotation startswith @f ,signs this icon as `Fix`
 				["@n"] = " ", -- mark annotation startswith @n ,signs this icon as `Note`
 			},
-			on_attach = function(bufnr)
+			on_attach = function()
 				local bm = require "bookmarks"
 				local map = vim.keymap.set
 				map("n","<leader>mm",bm.bookmark_toggle) -- add or remove bookmark at current line
@@ -22,7 +22,7 @@ return {
 				map("n","<leader>ml",bm.bookmark_list) -- show marked file list in quickfix window
 				map("n","<leader>mx",bm.bookmark_clear_all) -- removes all bookmarks
 			end,
-			require("telescope").load_extension("bookmarks")
+			-- require("telescope").load_extension("bookmarks")
 		}
 
 	end
