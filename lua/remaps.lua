@@ -9,10 +9,12 @@ vim.keymap.set("n", "<leader>fv", ":Neotree toggle<CR>", {}) -- toggle neotree f
 
 -- telescope
 local builtin = require('telescope.builtin')
+local telmarks = require('telescope').extensions.bookmarks
 vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
 vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
 vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
+vim.keymap.set('n', '<leader>fm', telmarks.list, {})
 
 
 -- dap (I am smart enough to know there is a better way to call these functions but not smart enough to us it)
