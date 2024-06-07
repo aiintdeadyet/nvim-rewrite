@@ -5,25 +5,13 @@
 vim.keymap.set("n", "<leader>fv", ":Neotree toggle<CR>", {}) -- toggle neotree file exporer
 -- other neotree comments are in the neotree pluggins file
 
--- harpoon and telescope do about the same thing so I have put their keymaps together
 -- telescope
 local builtin = require('telescope.builtin')
-local harpoon = require("harpoon")
 vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
 vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
 vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 vim.keymap.set('n', '<leader>fnd', "<cmd>Telescope undo<cr>") -- I think i will be finding a nother pluggin for this
--- harpoon
-vim.keymap.set("n", "<leader>fa", function() harpoon:list():add() end)
-vim.keymap.set("n", "<leader>fl", function() harpoon.ui:toggle_quick_menu(harpoon:list()) end)
-vim.keymap.set("n", "<leader>f1", function() harpoon:list():select(1) end)
-vim.keymap.set("n", "<leader>f2", function() harpoon:list():select(2) end)
-vim.keymap.set("n", "<leader>f3", function() harpoon:list():select(3) end)
-vim.keymap.set("n", "<leader>f4", function() harpoon:list():select(4) end)
--- Toggle previous & next buffers stored within Harpoon list
-vim.keymap.set("n", "<leader>fn", function() harpoon:list():prev() end)
-vim.keymap.set("n", "<leader>fN", function() harpoon:list():next() end)
 
 -- dap (I am smart enough to know there is a better way to call these functions but not smart enough to us it)
 local dap = require("dap")
