@@ -1,0 +1,4 @@
+
+Pluggins ---------------------------------------------
+barbar.nvim for file tab management
+
