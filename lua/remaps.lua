@@ -19,8 +19,13 @@ local ui  = require("dapui")
 vim.keymap.set('n', "<F5>", function()
 	-- save file
 	vim.cmd.write()
+	if dap.session() == "" then
+		vim.cmd(':silent exec "!make"')
+	end
+	-- vim.cmd.make() -- this works but I want something better
+	-- vim.cmd(":make")
 	-- open debuger if not already open
-	ui.open()
+	-- ui.open()
 	-- call nvim.dap continue()
 	dap.continue()
 end)
