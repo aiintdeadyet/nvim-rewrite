@@ -1,4 +1,11 @@
 
-Pluggins ---------------------------------------------
+Pluggins -------------------------------------------------------------------------------------
 barbar.nvim for file tab management
+make file integration with debugging integration
+
+
+Configurations -------------------------------------------------------------------------------
+make status bar insert collor green, red, yellow or just a different shade of blue
+
+
 

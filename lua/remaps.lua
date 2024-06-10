@@ -27,10 +27,10 @@ end)
 vim.keymap.set('n', "<F10>", dap.step_over, {})
 vim.keymap.set('n', "<F11>", dap.step_into, {}) -- this one has problems (<F11> will full screen the window instead of stepping into)
 vim.keymap.set('n', "<F12>", dap.step_out, {})
-vim.keymap.set('n', '<leader>b', dap.toggle_breakpoint, {})
+vim.keymap.set('n', '<leader>bp', dap.toggle_breakpoint, {})
 -- vim.keymap.set('n', '<leader>B', dap.set_breakpoint(vim.fn.input('Breakpoint condition: ')))
 -- vim.keymap.set('n', '<leader>lp', dap.set_breakpoint(nil, nil, vim.fn.input('Log point message: '))) 
-vim.keymap.set('n', '<leader>B', ":lua require'dap'.set_breakpoint(vim.fn.input('Breakpoint condition: '))<CR>") -- i don't like the way these lines are written
+vim.keymap.set('n', '<leader>Bp', ":lua require'dap'.set_breakpoint(vim.fn.input('Breakpoint condition: '))<CR>") -- i don't like the way these lines are written
 vim.keymap.set('n', '<leader>lp', ":lua require'dap'.set_breakpoint(nil, nil, vim.fn.input('Log point message: '))<CR>") -- this line needs changed to
 vim.keymap.set('n', "<leader>dr", dap.repl.toggle, {})
 -- dap ui
