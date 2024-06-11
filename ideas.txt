@@ -1,7 +1,6 @@
 
 Pluggins -------------------------------------------------------------------------------------
 barbar.nvim for file tab management
-make file integration with debugging integration
 
 
 Configurations -------------------------------------------------------------------------------
