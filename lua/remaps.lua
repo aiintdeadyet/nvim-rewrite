@@ -20,7 +20,7 @@ vim.keymap.set('n', "<F5>", function()
 	-- save file
 	if dap.session() == nil then -- if we aren't currently debugging 
 		vim.cmd.write()
-		vim.cmd(':silent exec "!make"') -- silently run make
+		vim.cmd(':silent exec "!make debug"') -- silently run make
 	end
 	-- open debuger if not already open
 	ui.open()

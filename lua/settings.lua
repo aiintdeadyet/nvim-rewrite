@@ -4,6 +4,7 @@ vim.cmd.set("cursorline") -- highlite the current line the cursor is on
 vim.cmd.set("nowrap") -- set lines not to wrap
 vim.cmd.set("nobackup") -- don't save backup files 
 vim.cmd.set("clipboard+=unnamedplus")
+vim.cmd.set("scrolloff=10")
 -- vim.cmd.let("g:neomake")
 
 -- indentation

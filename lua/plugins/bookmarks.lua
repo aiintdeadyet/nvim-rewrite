@@ -1,6 +1,7 @@
 
 return {
 	'tomasky/bookmarks.nvim',
+	lazy = false,
 	-- tag = 'release' -- To use the latest release	
 	event = "vimEnter",
 	config = function ()
@@ -18,8 +19,8 @@ return {
 				map("n","<leader>mm",bm.bookmark_toggle) -- add or remove bookmark at current line
 				map("n","<leader>mi",bm.bookmark_ann) -- add or edit mark annotation at current line
 				map("n","<leader>mc",bm.bookmark_clean) -- clean all marks in local buffer
-				map("n","<C-n>",bm.bookmark_next) -- jump to next mark in local buffer
-				map("n","<C-m>",bm.bookmark_prev) -- jump to previous mark in local buffer
+				map("n","<C-j>",bm.bookmark_next) -- jump to next mark in local buffer (down)
+				map("n","<C-k>",bm.bookmark_prev) -- jump to previous mark in local buffer (up)
 				map("n","<leader>ml",bm.bookmark_list) -- show marked file list in quickfix window
 				map("n","<leader>mx",bm.bookmark_clear_all) -- removes all bookmarks
 			end,
