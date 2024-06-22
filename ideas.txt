@@ -1,9 +1,8 @@
 
 Pluggins -------------------------------------------------------------------------------------
-find a different bookmarks pluggin because wholy crap it's bad
+find a different bookmarks pluggin because wholy crap the current one is bad
 
 Configurations -------------------------------------------------------------------------------
-make status bar insert collor green, red, yellow or just a different shade of blue
 
 Problems -------------------------------------------------------------------------------------
 fix python libraries not working with the debugger
