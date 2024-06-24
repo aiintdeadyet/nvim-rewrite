@@ -1,6 +1,6 @@
 
 Pluggins -------------------------------------------------------------------------------------
-https://github.com/yuriescl/minimal-bookmarks.nvim
+I have discoverd that if I want to have a good bookmarks pluggin I will likely need to write it myself
 
 Configurations -------------------------------------------------------------------------------
 
