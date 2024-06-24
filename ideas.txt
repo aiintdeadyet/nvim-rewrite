@@ -1,6 +1,6 @@
 
 Pluggins -------------------------------------------------------------------------------------
-find a different bookmarks pluggin because wholy crap the current one is bad
+https://github.com/yuriescl/minimal-bookmarks.nvim
 
 Configurations -------------------------------------------------------------------------------
 
