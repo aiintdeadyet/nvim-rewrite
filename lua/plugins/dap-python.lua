@@ -7,7 +7,7 @@ return { -- python dap addapter
 	},
 	config = function(_, opts)
 		-- local path = "~/.config/nvim/.virtualenvs/debugpy/bin/python3" -- if you want to setup a python compiler as part of the nvim config
-		require("dap-python").setup()
+		require("dap-python").setup("/usr/bin/python3")
 	end,
 }
 

@@ -1,0 +1,11 @@
+
+Pluggins -------------------------------------------------------------------------------------
+I have discoverd that if I want to have a good bookmarks pluggin I will likely need to write it myself
+git@github.com:LintaoAmons/bookmarks.nvim.git
+
+
+Configurations -------------------------------------------------------------------------------
+
+Problems -------------------------------------------------------------------------------------
+fix python libraries not working with the debugger
+

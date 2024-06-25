@@ -30,7 +30,12 @@ github.com/williamboman/mason.nvim
 github.com/theHamsta/nvim-dap-virtual-text
 github.com/mg979/vim-visual-multi
 ```
+## Dependencies and their instalation 
+xsel ```sudo apt installl xsel```
 
+ripgrep ```brew install ripgrep```
+
+libstdc++ ```apt search libstdc```, ```sudo apt install libstdc++-12-dev``` at time of writing
 
 ## Adding new plugins
 
@@ -56,10 +61,10 @@ return {
 
 ## Comon Problems
 
-### nvim can't find standard library headers.
-
-https://stackoverflow.com/questions/74785927/clangd-doesnt-recognize-standard-headers
-You can read more about it in the link above but to be brief it is a problem with clangd looking for the latest libstdc++ and not being able to find it. To fix this type ``apt search libstdc`` to find the latest version then install it through apt. At the current time this would look something like ``sudo apt install libstdc++-12-dev``.
+<!-- ### nvim can't find standard library headers. -->
+<!--  -->
+<!-- https://stackoverflow.com/questions/74785927/clangd-doesnt-recognize-standard-headers -->
+<!-- You can read more about it in the link above but to be brief it is a problem with clangd looking for the latest libstdc++ and not being able to find it. To fix this type ``apt search libstdc`` to find the latest version then install it through apt. At the current time this would look something like ``sudo apt install libstdc++-12-dev``. -->
 
 ### Some things may not install by default. 
 
