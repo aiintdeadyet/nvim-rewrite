@@ -45,3 +45,12 @@ vim.keymap.set('n', '<leader>db', ui.toggle)
 -- this stuff is in the autocomment.lua file
 
 -- toggleterm, remapings have changed to ctrl-t for both and moved to the togglerterm pluggin file
+
+
+-- book marks
+vim.keymap.set({ "n", "v" }, "<leader>mm", "<cmd>BookmarksMark<cr>", { desc = "Mark current line into active BookmarkList." }) -- I want to make it so that this doesn't ask me to name my bookmark'
+vim.keymap.set({ "n", "v" }, "<leader>mgt", "<cmd>BookmarksGoto<cr>", { desc = "Go to bookmark at current active BookmarkList" })
+vim.keymap.set({ "n", "v" }, "<leader>m?", "<cmd>BookmarksCommands<cr>", { desc = "Find and trigger a bookmark command." })
+vim.keymap.set({ "n", "v" }, "<leader>ml", "<cmd>BookmarksGotoRecent<cr>", { desc = "Go to latest visited/created Bookmark" })
+
+
