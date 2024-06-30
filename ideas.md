@@ -3,11 +3,8 @@
 ## Pluggins
 _**For pluggin ideas look at https://dotfyle.com/**_
 
-## Configurations
+## General
 
 ## Problems
 fix python libraries not working with the debugger
-
-## General
-turn this text file into a md document
 
